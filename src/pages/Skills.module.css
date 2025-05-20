@@ -1,0 +1,92 @@
+.skillsContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.skillsContent {
+  position: relative;
+  z-index: 1;
+  color: #000;
+  /* Additional styling for your content */
+}
+
+#tsparticles {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Skills.module.css 
+.iconContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.icon {
+  font-size: 4rem;
+  color: #0a0eeb;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+*/
+
+.skillsContainer {
+  text-align: center;
+  padding: 12rem;
+  background-color: #5e5b5b; /* Optional: set background color */
+}
+
+.skillsTitle {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.skillsIcons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  transition: transform 0.3s;
+}
+
+.skillItem:hover {
+  transform: scale(2.1);
+}
+
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  justify-content: center; /* Centers the grid within the container */
+  justify-items: center; /* Centers items within their grid cells */
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skillItem figcaption {
+  margin-top: 0.5rem;
+  color: #000000;
+  font-size: 1rem;
+}
