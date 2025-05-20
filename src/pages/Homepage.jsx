@@ -3,11 +3,13 @@ import Styles from "./Homepage.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import DownloadButton from "../components/DownloadButton";
+import SantaCanvas from "../components/SantaCanvas";
 
 function Homepage() {
   return (
     <main className={Styles.homepage}>
       <PageNav />
+
       <section>
         <div className="row">
           <div className="home-header d-flex flex-column align-items-center text-center gap-3 my-5">
@@ -20,6 +22,12 @@ function Homepage() {
             <h2>
               I'm <strong class="main-name"> Utkarsh Kapoor</strong>
             </h2>
+            <div
+              className="background-container"
+              style={{ position: "relative" }}
+            >
+              <SantaCanvas />
+            </div>
             <h2>
               I'm a
               <Typewriter
@@ -34,11 +42,12 @@ function Homepage() {
                 loop={true}
                 cursor
                 cursorStyle="_"
-                typeSpeed={50}
-                deleteSpeed={50}
+                typeSpeed={70}
+                deleteSpeed={70}
                 delaySpeed={1500}
               />
             </h2>
+
             <DownloadButton
               filePath="../Utkarsh_Resume.pdf"
               fileName="Utkarsh_Resume.pdf"

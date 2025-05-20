@@ -1,11 +1,3 @@
-.homepage {
-  height: calc(100vh);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../bg.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
 .homepage section {
   display: flex;
   flex-direction: column;
@@ -37,35 +29,41 @@
   padding-left: 50px !important;
 }
 
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  }
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
 }
 
-.wave {
-  display: inline-block;
-  animation: wave 2s ease-in-out;
-  transform-origin: 70% 70%;
+.background-container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.background-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none; /* Allows clicks to pass through */
+}
+
+.homepage {
+  height: calc(100vh);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
