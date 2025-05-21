@@ -1,10 +1,11 @@
 import PageNav from "../components/PageNav";
+import Timeline from "../components/TimelineEdu";
 
 function Education() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#000", padding: "3.5rem 0" }}>
       <PageNav />
-      My Education
+      <Timeline />
     </div>
   );
 }

@@ -1,7 +1,5 @@
 .nav {
   background-color: transparent;
-  backdrop-filter: blur(8px); /* adds a frosted glass effect */
-  -webkit-backdrop-filter: blur(8px); /* Safari support */
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.1); /* subtle line */
   padding: 0.1rem 1rem;
   position: sticky; /* or fixed if you want it always on top */
