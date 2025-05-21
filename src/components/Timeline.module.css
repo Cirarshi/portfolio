@@ -1,0 +1,13 @@
+.customBulletList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.customBulletList li::before {
+  content: "❖";
+  color: #ffffff; /* Customize the color as needed */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-right: 0.5em;
+}

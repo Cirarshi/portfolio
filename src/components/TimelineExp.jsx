@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
+import styles from "./Timeline.module.css"; // Import your CSS file for custom styles
 
 const Timeline = () => {
   return (
@@ -38,6 +39,34 @@ const Timeline = () => {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">Departed Wipro</h3>
+          <ul class={styles.customBulletList}>
+            <li>
+              Led the development of web applications, ensuring adherence to
+              coding and design best practices while focusing on high-quality
+              user experiences.
+            </li>
+            <li>
+              Collaborated with cross-functional teams, aligning project goals
+              and deliverables with client expectations and industry standards.
+            </li>
+            <li>
+              Conducted security assessments and testing, identifying
+              vulnerabilities and implementing enhancements to protect user
+              data. devices.
+            </li>
+            <li>
+              Administered the integration of modern UI frameworks, improving
+              the visual appeal and functionality of applications.{" "}
+            </li>
+            <li>
+              Organized code reviews and knowledge-sharing sessions, promoting a
+              culture of continuous improvement and technical excellence.{" "}
+            </li>
+            <li>
+              Implemented responsive design across projects, ensuring seamless
+              user experiences on all devices.
+            </li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -55,10 +84,22 @@ const Timeline = () => {
           <h4 className="vertical-timeline-element-subtitle">
             📍 Bengaluru, Karnataka
           </h4>
-          <p>
-            Crafted intuitive user experiences and interfaces for web
-            applications.
-          </p>
+          <ul class={styles.customBulletList}>
+            <li>
+              Led the development of a responsive UI, optimizing dashboard
+              layouts for diverse screen sizes with CSS and Bootstrap
+              techniques.
+            </li>
+            <li>
+              Guaranteed consistent visual appearance and seamless user
+              experience across various resolutions, enhancing usability.
+            </li>
+            <li>
+              Utilized modern CSS methodologies to fine-tune design elements,
+              ensuring smooth performance and visual appeal across multiple
+              devices.
+            </li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -78,10 +119,23 @@ const Timeline = () => {
           <h4 className="vertical-timeline-element-subtitle">
             📍 Chennai, Tamil Nadu
           </h4>
-          <p>
-            Developing and maintaining user interfaces with React and Tailwind
-            CSS.
-          </p>
+          <ul class={styles.customBulletList}>
+            <li>
+              Transformed the UI of the network simulator by integrating card
+              and port requirements, refining layout and functionality to
+              accommodate new features.
+            </li>
+            <li>
+              Led comprehensive security testing using Defensics, identifying
+              and addressing vulnerabilities to enhance the application's
+              security.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to troubleshoot, resolve
+              issues, and proactively improve the application's security and
+              performance.
+            </li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
