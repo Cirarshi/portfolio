@@ -38,7 +38,9 @@ const Timeline = () => {
           iconStyle={{ background: "#333", color: "#fff" }}
           icon={<FaBriefcase />}
         >
-          <h3 className="vertical-timeline-element-title">Departed Wipro</h3>
+          <h3 className="vertical-timeline-element-title">
+            Departed from Wipro
+          </h3>
           <ul class={styles.customBulletList}>
             <li>
               Led the development of web applications, ensuring adherence to

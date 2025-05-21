@@ -3,7 +3,7 @@ import Styles from "./Homepage.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import DownloadButton from "../components/DownloadButton";
-import SantaCanvas from "../components/SantaCanvas";
+import SantaCanvas from "../components/Base64Canva";
 
 function Homepage() {
   return (
