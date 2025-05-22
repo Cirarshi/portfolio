@@ -1,3 +1,11 @@
+.background {
+  height: calc(100vh);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .skillsContainer {
   position: relative;
   width: 100%;
@@ -44,8 +52,7 @@
 
 .skillsContainer {
   text-align: center;
-  padding: 12rem;
-  background-color: #5e5b5b; /* Optional: set background color */
+  padding: 12rem; /* Optional: set background color */
 }
 
 .skillsTitle {
@@ -87,6 +94,6 @@
 
 .skillItem figcaption {
   margin-top: 0.5rem;
-  color: #000000;
+  color: #ffffff;
   font-size: 1rem;
 }

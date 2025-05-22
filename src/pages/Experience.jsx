@@ -1,9 +1,17 @@
 import PageNav from "../components/PageNav";
 import Timeline from "../components/TimelineExp";
+import Styles from "./About.module.css";
 
 function Experience() {
   return (
-    <div style={{ backgroundColor: "#000", padding: "3.5rem 0" }}>
+    <div
+      style={{
+        backgroundColor: "#000",
+        padding: "1.5rem",
+        height: "calc(200vh)",
+      }}
+      className={Styles.background}
+    >
       <PageNav />
       <Timeline />
     </div>

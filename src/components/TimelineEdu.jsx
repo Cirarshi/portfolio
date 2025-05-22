@@ -8,10 +8,7 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 
 const Timeline = () => {
   return (
-    <section
-      id="timeline"
-      style={{ backgroundColor: "#000", padding: "4.5rem 0" }}
-    >
+    <section id="timeline" style={{ padding: "1rem" }}>
       <h2 style={{ color: "#fff", textAlign: "center", marginBottom: "2rem" }}>
         Education
       </h2>

@@ -9,10 +9,7 @@ import styles from "./Timeline.module.css"; // Import your CSS file for custom s
 
 const Timeline = () => {
   return (
-    <section
-      id="timeline"
-      style={{ backgroundColor: "#000", padding: "2rem 0" }}
-    >
+    <section id="timeline">
       <h2 style={{ color: "#fff", textAlign: "center", marginBottom: "2rem" }}>
         Work Experience
       </h2>
@@ -26,7 +23,10 @@ const Timeline = () => {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">Freelancer</h3>
-          <p>Developing few user interfaces with React and Tailwind CSS.</p>
+          <p>
+            Developing few user interfaces with React and Tailwind CSS for
+            multiple clients.
+          </p>
           <h4 className="vertical-timeline-element-subtitle">📍 Remote</h4>
         </VerticalTimelineElement>
 
@@ -39,9 +39,9 @@ const Timeline = () => {
           icon={<FaBriefcase />}
         >
           <h3 className="vertical-timeline-element-title">
-            Departed from Wipro
+            Departed from Wipro with...
           </h3>
-          <ul class={styles.customBulletList}>
+          <ul className={styles.customBulletList}>
             <li>
               Led the development of web applications, ensuring adherence to
               coding and design best practices while focusing on high-quality
@@ -86,7 +86,7 @@ const Timeline = () => {
           <h4 className="vertical-timeline-element-subtitle">
             📍 Bengaluru, Karnataka
           </h4>
-          <ul class={styles.customBulletList}>
+          <ul className={styles.customBulletList}>
             <li>
               Led the development of a responsive UI, optimizing dashboard
               layouts for diverse screen sizes with CSS and Bootstrap
@@ -121,7 +121,7 @@ const Timeline = () => {
           <h4 className="vertical-timeline-element-subtitle">
             📍 Chennai, Tamil Nadu
           </h4>
-          <ul class={styles.customBulletList}>
+          <ul className={styles.customBulletList}>
             <li>
               Transformed the UI of the network simulator by integrating card
               and port requirements, refining layout and functionality to

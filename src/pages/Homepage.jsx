@@ -7,7 +7,7 @@ import SantaCanvas from "../components/Base64Canva";
 
 function Homepage() {
   return (
-    <main className={Styles.homepage}>
+    <main className={Styles.homepage} style={{ padding: "1.5rem" }}>
       <PageNav />
 
       <section>
@@ -20,7 +20,7 @@ function Homepage() {
               </span>
             </h1>
             <h2>
-              I'm <strong class="main-name"> Utkarsh Kapoor</strong>
+              I'm <strong className="main-name"> Utkarsh Kapoor</strong>
             </h2>
             <div
               className="background-container"

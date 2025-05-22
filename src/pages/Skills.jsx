@@ -13,7 +13,7 @@ import Cypress from "../assets/Cypress.png";
 
 function Skills() {
   return (
-    <div>
+    <div style={{ padding: "1.5rem" }} className={styles.background}>
       <PageNav />
       <div className={styles.skillsContainer}>
         {/*<ParticlesBackground />*/}
