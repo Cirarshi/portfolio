@@ -8,7 +8,7 @@ function Education() {
       style={{
         backgroundColor: "#000",
         padding: "1.5rem",
-        height: "calc(120vh)",
+        height: "calc(130vh)",
       }}
       className={Styles.background}
     >

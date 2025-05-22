@@ -8,7 +8,7 @@ function Experience() {
       style={{
         backgroundColor: "#000",
         padding: "1.5rem",
-        height: "calc(200vh)",
+        height: "calc(220vh)",
       }}
       className={Styles.background}
     >
