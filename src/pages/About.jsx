@@ -1,6 +1,7 @@
 import PageNav from "../components/PageNav";
 import Styles from "./About.module.css";
 import { Typewriter } from "react-simple-typewriter";
+import Footer from "../components/footer";
 
 function About() {
   return (
@@ -50,6 +51,7 @@ function About() {
           delaySpeed={1500}
         />
       </div>
+      <Footer />
     </div>
   );
 }

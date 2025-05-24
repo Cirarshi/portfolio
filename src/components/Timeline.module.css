@@ -5,9 +5,13 @@
 
 .customBulletList li::before {
   content: "❖";
-  color: #ffffff; /* Customize the color as needed */
+  color: #d34545; /* Customize the color as needed */
   display: inline-block;
   width: 1em;
   margin-left: -1em;
   margin-right: 0.5em;
+}
+
+.timelineSection {
+  padding: 2rem 1rem 8rem;
 }

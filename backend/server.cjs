@@ -20,16 +20,22 @@ app.post("/send-email", (req, res) => {
   const mailOptions = {
     from: email,
     to: "connex1622@gmail.com",
-    subject: `New Contact Message from ${name}`,
+    subject: `New Contact Message from personal site by ${name}`,
     text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.error(error);
-      res.status(500).json({ message: "Email failed to send" });
+      res.status(500).json({
+        message:
+          "Oops! Our email elves tripped over a wire. Try again in a bit — they’re rebooting with coffee!",
+      });
     } else {
-      res.status(200).json({ message: "Email sent successfully!" });
+      res.status(200).json({
+        message:
+          "Got it! Your message is now doing backflips in our inbox. We’ll hit you back soon — stay awesome!",
+      });
     }
   });
 });

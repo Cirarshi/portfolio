@@ -1,9 +1,10 @@
 import PageNav from "../components/PageNav";
-import Styles from "./HomePage.module.css";
+import Styles from "./Homepage.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import DownloadButton from "../components/DownloadButton";
 import SantaCanvas from "../components/Base64Canva";
+import Footer from "../components/footer";
 
 function Homepage() {
   return (
@@ -57,6 +58,7 @@ function Homepage() {
           </div>
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

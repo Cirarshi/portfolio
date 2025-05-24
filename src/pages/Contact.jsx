@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import PageNav from "../components/PageNav";
 import Styles from "./About.module.css";
+import Style2 from "./Contact.module.css";
+import Footer from "../components/footer";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -39,15 +41,15 @@ function Contact() {
       <PageNav />
       <form
         onSubmit={handleSubmit}
-        className="space-y-4 p-4 max-w-md mx-auto bg-white rounded-xl shadow-md"
+        className={Style2.contactForm}
+        style={{ justifyContent: "center" }}
       >
-        <h2 className="text-xl font-bold">Contact Me</h2>
+        <h2>Drop your message</h2>
         <input
           type="text"
           name="name"
           placeholder="Your Name"
           required
-          className="w-full p-2 border rounded"
           onChange={handleChange}
         />
         <input
@@ -55,24 +57,18 @@ function Contact() {
           name="email"
           placeholder="Your Email"
           required
-          className="w-full p-2 border rounded"
           onChange={handleChange}
         />
         <textarea
           name="message"
           placeholder="Your Message"
           required
-          className="w-full p-2 border rounded"
           onChange={handleChange}
         />
-        <button
-          type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded"
-        >
-          Send
-        </button>
+        <button type="submit">Send</button>
         <p>{status}</p>
       </form>
+      <Footer />
     </div>
   );
 }

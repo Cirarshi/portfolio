@@ -1,0 +1,64 @@
+/* ContactForm.css */
+
+.contactForm {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1); /* more transparent */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3); /* light border */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.contactForm h2 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  background-color: transparent; /* slightly transparent input fields */
+  color: #000;
+}
+
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #555;
+}
+
+.contactForm button {
+  padding: 0.7rem 1.5rem;
+  background-color: #64eb25;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.contactForm button:hover {
+  background-color: #1e40af;
+}
+
+.contactForm p {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #eee;
+  font-size: 0.9rem;
+}

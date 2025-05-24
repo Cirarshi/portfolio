@@ -1,6 +1,7 @@
 import PageNav from "../components/PageNav";
 import Timeline from "../components/TimelineEdu";
-import Styles from "./About.module.css";
+import Styles from "./expedu.module.css";
+import Footer from "../components/footer";
 
 function Education() {
   return (
@@ -8,12 +9,12 @@ function Education() {
       style={{
         backgroundColor: "#000",
         padding: "1.5rem",
-        height: "calc(130vh)",
       }}
       className={Styles.background}
     >
       <PageNav />
       <Timeline />
+      <Footer />
     </div>
   );
 }

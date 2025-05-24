@@ -9,7 +9,7 @@ import styles from "./Timeline.module.css"; // Import your CSS file for custom s
 
 const Timeline = () => {
   return (
-    <section id="timeline">
+    <section id="timeline" className={styles.timelineSection}>
       <h2 style={{ color: "#fff", textAlign: "center", marginBottom: "2rem" }}>
         Work Experience
       </h2>
@@ -17,7 +17,11 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Jan 2025 – Present"
-          contentStyle={{ background: "#1a1a1a", color: "#fff" }}
+          contentStyle={{
+            background: "#1a1a1a",
+            color: "#fff",
+            padding: "2rem 1rem 8rem",
+          }}
           contentArrowStyle={{ borderRight: "7px solid #1a1a1a" }}
           iconStyle={{ background: "#333", color: "#fff" }}
           icon={<FaBriefcase />}

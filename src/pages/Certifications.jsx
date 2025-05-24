@@ -1,29 +1,38 @@
 import PageNav from "../components/PageNav";
 import Styles from "./Certificate.module.css"; // Import the CSS module for styling
 import { cn } from "../components/cn";
+import js2 from "../assets/cert/js2.png";
+import js1 from "../assets/cert/js1.png";
+import dataAnalytics from "../assets/cert/datanalytics.png";
+import Footer from "../components/footer";
 
 const certifications = [
   {
-    title: "Frontend Development Certification",
-    issuer: "freeCodeCamp",
-    date: "March 2024",
+    title: "JavaScript Essentials 2",
+    issuer: "Cisco Networking Academy",
+    date: "May 2025",
     description:
-      "Completed a comprehensive course covering HTML, CSS, and JavaScript.",
-    link: "https://www.freecodecamp.org/certification/yourusername/front-end-development",
+      "Skilled in OOP (class-based and classless), built-in objects, Maps/Sets, and async programming.",
+    link: "https://www.credly.com/badges/22d3ef00-449f-4be4-861b-b0586a795dfe",
+    src: js2,
   },
   {
-    title: "React Developer Certification",
-    issuer: "Coursera",
-    date: "June 2024",
-    description: "Learned advanced React concepts and built several projects.",
-    link: "https://www.coursera.org/account/accomplishments/certificate/yourcertificateid",
+    title: "JavaScript Essentials 1",
+    issuer: "Cisco Networking Academy",
+    date: "May 2025",
+    description:
+      "Proficient in core JavaScript syntax, data types, control flow, functions, and basic algorithmic problem-solving.",
+    link: "https://www.credly.com/badges/fb8c63a5-1748-406e-bd34-73945213af22",
+    src: js1,
   },
   {
-    title: "JavaScript Algorithms and Data Structures",
-    issuer: "freeCodeCamp",
-    date: "January 2024",
-    description: "Mastered algorithms and data structures in JavaScript.",
-    link: "https://www.freecodecamp.org/certification/yourusername/javascript-algorithms-and-data-structures",
+    title: "Data Analytics Essentials",
+    issuer: "Cisco Networking Academy",
+    date: "May 2025",
+    description:
+      "Skilled in data analytics fundamentals, data transformation, and basic statistical analysis using Excel, SQL, Tableau, and more.",
+    link: "https://www.credly.com/badges/9f9eaa8a-a30f-4c02-b78e-81d6596b7c24",
+    src: dataAnalytics,
   },
   // Add more certifications as needed
 ];
@@ -61,12 +70,13 @@ function Certifications() {
                 rel="noopener noreferrer"
                 className="inline-block bg-yellow-500 text-gray-900 px-4 py-2 rounded hover:bg-yellow-400 transition-colors duration-300"
               >
-                View Certificate
+                <img src={cert.src} className={Styles.icon} alt={cert.title} />
               </a>
             </div>
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
