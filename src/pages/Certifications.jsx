@@ -34,6 +34,15 @@ const certifications = [
     link: "https://www.credly.com/badges/9f9eaa8a-a30f-4c02-b78e-81d6596b7c24",
     src: dataAnalytics,
   },
+  {
+    title: "More to come",
+    issuer: "",
+    date: "",
+    description:
+      "I’m constantly sharpening my skills and collecting certifications like rare gems — stay tuned, the collection’s always growing!",
+    link: "#",
+    src: "",
+  },
   // Add more certifications as needed
 ];
 

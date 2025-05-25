@@ -1,8 +1,8 @@
 import PageNav from "../components/PageNav";
-import Styles from "./About.module.css";
+import Styles from "./Project.module.css";
 import Footer from "../components/footer";
 import { cn } from "../components/cn";
-import DemoButton from "../components/demoButton";
+//import DemoButton from "../components/demoButton";
 
 const certifications = [
   {
@@ -12,16 +12,28 @@ const certifications = [
     link: "https://utkarshkapoor.netlify.app/",
   },
   {
-    title: "JavaScript Essentials 1",
+    title: "Connex Pizza",
     description:
-      "Proficient in core JavaScript syntax, data types, control flow, functions, and basic algorithmic problem-solving.",
-    link: "https://www.credly.com/badges/fb8c63a5-1748-406e-bd34-73945213af22",
+      "A dynamic React-based menu display for restaurants that smartly toggles between open and closed states based on operating hours. It highlights available items and gracefully greys out those out of stock — making ordering intuitive for customers and effortless for staff.",
+    link: "https://connex-pizza.netlify.app/",
   },
   {
-    title: "Data Analytics Essentials",
+    title: "Connex Resell",
     description:
-      "Skilled in data analytics fundamentals, data transformation, and basic statistical analysis using Excel, SQL, Tableau, and more.",
-    link: "https://www.credly.com/badges/9f9eaa8a-a30f-4c02-b78e-81d6596b7c24",
+      "A sleek React app where users can list their old goods for resale and interested buyers can browse, connect, and purchase. Whether it’s a vintage guitar or barely-used gadgets, this platform gives second chances to great items — one click at a time!",
+    link: "https://connexresell.netlify.app/",
+  },
+  {
+    title: "Movie Ready",
+    description:
+      "A dynamic React app that lets users rate movies, explore collections, apply filters to discover hidden gems, and build their very own watch later list. Whether you're a rom-com junkie or a sci-fi sleuth, this app helps you navigate the cinematic universe like a true movie buff!",
+    link: "#",
+  },
+  {
+    title: "Wait for more to come",
+    description:
+      "We are constantly working on new projects. Stay tuned for more exciting developments!",
+    link: "#",
   },
   // Add more certifications as needed
 ];
@@ -41,9 +53,17 @@ function Projects() {
                 Styles.card
               )}
             >
-              <h2 className="text-xl font-semibold mb-2">{cert.title}</h2>
-              <p className="text-gray-300 mb-4">{cert.description}</p>
-              <DemoButton link={cert.link} />
+              <h2 className="text-xl font-semibold mb-12">{cert.title}</h2>
+              <p className="text-gray-300 mb-12">{cert.description}</p>
+              {/*<DemoButton link={cert.link} />*/}
+              <a
+                className={Styles.projectButton}
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Preview</span>
+              </a>
             </div>
           ))}
         </div>
