@@ -1,5 +1,5 @@
 import PageNav from "../components/PageNav";
-import Styles from "./Homepage.module.css";
+import Styles from "./HomePage.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import DownloadButton from "../components/DownloadButton";
