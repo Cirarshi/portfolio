@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import stlyes from "./PageNav.module.css";
 // import { useState } from "react";
+import MusicToggle from "./MusicToggle";
 
 function PageNav() {
   return (
@@ -30,6 +31,9 @@ function PageNav() {
         </li>
         <li>
           <NavLink to="/contact">Contact</NavLink>
+        </li>
+        <li>
+          <MusicToggle />
         </li>
       </ul>
     </nav>

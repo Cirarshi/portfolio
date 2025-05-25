@@ -33,52 +33,54 @@ function Skills() {
               <FaReact className={styles.icon} title="React" />
             </div>
           */}
-            <div className={styles.skillsIcons}>
+            <div>
               <h2 className={styles.h2}>Technologies</h2>
-              <figure className={styles.skillItem}>
-                <img src={reactLogo} alt="React" className={styles.icon} />
-                <figcaption>React Js</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={js} alt="Javascript" className={styles.icon} />
-                <figcaption>Javascript</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={html5} alt="HTML5" className={styles.icon} />
-                <figcaption>HTML5</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={css3} alt="CSS3" className={styles.icon} />
-                <figcaption>CSS3</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={jquery} alt="jQuery" className={styles.icon} />
-                <figcaption>jQuery</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img
-                  src={typescript}
-                  alt="Typescript"
-                  className={styles.icon}
-                />
-                <figcaption>Typescript</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={sql} alt="SQL" className={styles.icon} />
-                <figcaption>SQL</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img
-                  src={playwright}
-                  alt="Playwright"
-                  className={styles.icon}
-                />
-                <figcaption>Playwright</figcaption>
-              </figure>
-              <figure className={styles.skillItem}>
-                <img src={Cypress} alt="Cypress" className={styles.icon} />
-                <figcaption>Cypress</figcaption>
-              </figure>
+              <div className={styles.skillsIcons}>
+                <figure className={styles.skillItem}>
+                  <img src={reactLogo} alt="React" className={styles.icon} />
+                  <figcaption>React Js</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={js} alt="Javascript" className={styles.icon} />
+                  <figcaption>Javascript</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={html5} alt="HTML5" className={styles.icon} />
+                  <figcaption>HTML5</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={css3} alt="CSS3" className={styles.icon} />
+                  <figcaption>CSS3</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={jquery} alt="jQuery" className={styles.icon} />
+                  <figcaption>jQuery</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img
+                    src={typescript}
+                    alt="Typescript"
+                    className={styles.icon}
+                  />
+                  <figcaption>Typescript</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={sql} alt="SQL" className={styles.icon} />
+                  <figcaption>SQL</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img
+                    src={playwright}
+                    alt="Playwright"
+                    className={styles.icon}
+                  />
+                  <figcaption>Playwright</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={Cypress} alt="Cypress" className={styles.icon} />
+                  <figcaption>Cypress</figcaption>
+                </figure>
+              </div>
             </div>
             <div>
               <h2 className={styles.h2}>Tools</h2>
