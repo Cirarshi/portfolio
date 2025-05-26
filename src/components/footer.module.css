@@ -11,9 +11,6 @@
   z-index: 1000; /* ensures it stays above other content */
 }
 
-.nav p {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  color: #f1f1f1;
+.icon {
+  margin-left: 0.5rem;
 }

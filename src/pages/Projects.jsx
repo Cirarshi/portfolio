@@ -2,6 +2,7 @@ import PageNav from "../components/PageNav";
 import Styles from "./Project.module.css";
 import Footer from "../components/footer";
 import { cn } from "../components/cn";
+import { motion } from "framer-motion";
 //import DemoButton from "../components/demoButton";
 
 const certifications = [
@@ -46,8 +47,11 @@ function Projects() {
         <h1 className="text-4xl font-bold mb-8 text-center">My Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
-            <div
+            <motion.div
               key={index}
+              initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
               className={cn(
                 "border bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105 flex flex-col items-center text-center",
                 Styles.card
@@ -64,7 +68,7 @@ function Projects() {
               >
                 <span>Preview</span>
               </a>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

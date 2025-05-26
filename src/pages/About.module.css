@@ -5,3 +5,48 @@
   background-size: cover;
   background-position: center;
 }
+
+.aboutParagraph {
+  color: #e0e0e0; /* A soft, light grey for calm contrast on dark backgrounds */
+  font-family: "Georgia", serif; /* A classic serif font, elegant and timeless */
+  font-size: 1.125rem; /* Around 18px, comfortable for reading */
+  line-height: 1.6; /* Breathing space between lines for clarity */
+  max-width: 700px; /* Keeps lines from stretching too wide for better readability */
+  margin: 0 auto; /* Center align block for balanced layout */
+  padding: 1rem 1.5rem; /* Cozy padding so text doesn't hug edges */
+  background-color: #2f2f2f; /* A deep charcoal grey for a warm dark background */
+  border-radius: 8px; /* Slightly rounded corners for softness */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* A subtle shadow to lift it off the background */
+  text-align: justify; /* Classic alignment for a polished look */
+}
+
+.coreCompetencies {
+  background-color: #1f1f1f; /* Slightly darker than your paragraph for subtle contrast */
+  color: #f0ebd8; /* Warm ivory, soft and readable on dark */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern sans-serif */
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.coreCompetencies h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+  color: #ffd700; /* Golden yellow — because your skills shine bright */
+  text-transform: uppercase;
+  text-shadow: 1px 1px 4px rgba(255, 215, 0, 0.7);
+}
+
+.typewriter-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  min-height: 2.5rem; /* Reserve vertical space for smooth transitions */
+  color: #e0e0e0;
+}

@@ -5,6 +5,7 @@ import js2 from "../assets/cert/js2.png";
 import js1 from "../assets/cert/js1.png";
 import dataAnalytics from "../assets/cert/datanalytics.png";
 import Footer from "../components/footer";
+import { motion } from "framer-motion";
 
 const certifications = [
   {
@@ -56,8 +57,11 @@ function Certifications() {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
-            <div
+            <motion.div
               key={index}
+              initial={{ x: index % 2 === 0 ? -100 : 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
               className={cn(
                 "border bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:scale-105 flex flex-col items-center text-center",
                 Styles.card
@@ -73,15 +77,21 @@ function Certifications() {
                 {cert.date}
               </p>
               <p className="text-gray-300 mb-4">{cert.description}</p>
-              <a
-                href={cert.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-yellow-500 text-gray-900 px-4 py-2 rounded hover:bg-yellow-400 transition-colors duration-300"
-              >
-                <img src={cert.src} className={Styles.icon} alt={cert.title} />
-              </a>
-            </div>
+              {cert.issuer && (
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-yellow-500 text-gray-900 px-4 py-2 rounded hover:bg-yellow-400 transition-colors duration-300"
+                >
+                  <img
+                    src={cert.src}
+                    className={Styles.icon}
+                    alt={cert.title}
+                  />
+                </a>
+              )}
+            </motion.div>
           ))}
         </div>
       </div>

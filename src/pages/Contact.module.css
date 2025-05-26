@@ -14,8 +14,8 @@
   flex-direction: column;
   justify-content: center; /* horizontally center */
   align-items: center; /* vertically center */
-  margin-top: 15%;
-  margin-left: 20%;
+  margin-top: 9%;
+  justify-self: center;
 }
 
 .contactForm h2 {

@@ -12,6 +12,9 @@ import playwright from "../assets/skills/playwright.png";
 import Cypress from "../assets/skills/Cypress.png";
 import sql from "../assets/skills/sql.png";
 import tableau from "../assets/skills/tableau.png";
+import Jira from "../assets/skills/Jira.png";
+import Git from "../assets/skills/git.png";
+import powerBI from "../assets/skills/power-bi.png";
 //import webdev1 from "../assets/webdev1.png";
 //import webdev2 from "../assets/webdev2.png";
 //import webdev3 from "../assets/webdev3.png";
@@ -84,11 +87,25 @@ function Skills() {
             </div>
             <div>
               <h2 className={styles.h2}>Tools</h2>
-              <figure className={styles.skillItem}>
-                <img src={tableau} alt="Tableau" className={styles.icon} />
-                <figcaption>Tableau</figcaption>
-              </figure>
-              {/*<img src={webdev1} alt="webdev" className={styles.sidepic} />*/}
+              <div className={styles.skillsIcons}>
+                <figure className={styles.skillItem}>
+                  <img src={Git} alt="Git" className={styles.icon} />
+                  <figcaption>Git</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={Jira} alt="Jira" className={styles.icon} />
+                  <figcaption>Jira</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={tableau} alt="Tableau" className={styles.icon} />
+                  <figcaption>Tableau</figcaption>
+                </figure>
+                <figure className={styles.skillItem}>
+                  <img src={powerBI} alt="Power BI" className={styles.icon} />
+                  <figcaption>Power BI</figcaption>
+                </figure>
+                {/*<img src={webdev1} alt="webdev" className={styles.sidepic} />*/}
+              </div>
             </div>
           </div>
         </div>

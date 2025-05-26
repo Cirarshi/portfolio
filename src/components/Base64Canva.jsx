@@ -6,7 +6,7 @@ function SantaCanvas() {
 
   useEffect(() => {
     const canvas = canvasRef.current;
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
 
     canvas.style.width = "400px";
     canvas.style.height = "400px";
