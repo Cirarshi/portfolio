@@ -25,7 +25,7 @@
   color: #f0ebd8; /* Warm ivory, soft and readable on dark */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern sans-serif */
   max-width: 720px;
-  margin: 2rem auto;
+  margin: 0 auto;
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);

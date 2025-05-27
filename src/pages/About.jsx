@@ -7,7 +7,7 @@ function About() {
   return (
     <div className={Styles.background} style={{ padding: "1.5rem" }}>
       <PageNav />
-      <div style={{ marginTop: "3%" }}>
+      <div style={{ marginTop: "1%" }}>
         <h4>
           <p className={Styles.aboutParagraph}>
             Accomplishment-driven Software Developer with wealth of experience
