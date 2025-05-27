@@ -1,14 +1,15 @@
-[build]
-  # Path to your frontend build output
-  publish = "dist" # or "build", depending on your React setup
-  # Path to your Netlify Functions
-  functions = "netlify/functions"
 
 [functions]
   # Optional: Use esbuild for modern bundling
   node_bundler = "esbuild"
 
+
+  [build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
   status = 200
