@@ -28,7 +28,7 @@ export async function handler(event, context) {
   } catch (err) {
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: err.message }),
+      body: JSON.stringify({ message: "Something went wrong" }),
     };
   }
 }
