@@ -1,16 +1,16 @@
 🚀 Features
-⚡ Fast & Optimized – Powered by Vite for lightning-fast builds and hot reloading.
+  ⚡ Fast & Optimized – Powered by Vite for lightning-fast builds and hot reloading.
 
-🎨 Responsive Design – Fully optimized for desktop, tablet, and mobile devices.
+  🎨 Responsive Design – Fully optimized for desktop, tablet, and mobile devices.
 
-📂 Project Showcase – Highlights my key projects with descriptions, screenshots, and links.
+  📂 Project Showcase – Highlights my key projects with descriptions, screenshots, and links.
 
-📧 Contact Section – Easy ways to get in touch with me.
+  📧 Contact Section – Easy ways to get in touch with me.
 
-💡 Modern UI/UX – Sleek and minimal design with smooth animations.
+  💡 Modern UI/UX – Sleek and minimal design with smooth animations.
 
-🛠 Tech Stack
-Frontend: React, JavaScript (ES6+), HTML5, CSS3
+  🛠 Tech Stack
+    Frontend: React, JavaScript (ES6+), HTML5, CSS3
 
 Build Tool: Vite
 
