@@ -1,12 +1,21 @@
-# React + Vite
+🚀 Features
+⚡ Fast & Optimized – Powered by Vite for lightning-fast builds and hot reloading.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎨 Responsive Design – Fully optimized for desktop, tablet, and mobile devices.
 
-Currently, two official plugins are available:
+📂 Project Showcase – Highlights my key projects with descriptions, screenshots, and links.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📧 Contact Section – Easy ways to get in touch with me.
 
-## Expanding the ESLint configuration
+💡 Modern UI/UX – Sleek and minimal design with smooth animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠 Tech Stack
+Frontend: React, JavaScript (ES6+), HTML5, CSS3
+
+Build Tool: Vite
+
+Styling: CSS framework or library used,Tailwind CSS, etc.
+
+Deployment: https://utkarshkapoor.netlify.app/
+
+<img width="1905" height="900" alt="image" src="https://github.com/user-attachments/assets/b9878793-a07f-45e3-a7e4-b7a508570d92" />
