@@ -1,4 +1,3 @@
-🚀 Features
   ⚡ Fast & Optimized – Powered by Vite for lightning-fast builds and hot reloading.
 
   🎨 Responsive Design – Fully optimized for desktop, tablet, and mobile devices.
