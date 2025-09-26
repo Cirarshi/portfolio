@@ -49,12 +49,6 @@ const certifications = [
     link: "https://connexresell.netlify.app/",
   },
   {
-    title: "Movie Ready",
-    description:
-      "A dynamic React app that lets users rate movies, explore collections, apply filters to discover hidden gems, and build their very own watch later list. Whether you're a rom-com junkie or a sci-fi sleuth, this app helps you navigate the cinematic universe like a true movie buff!",
-    link: "#",
-  },
-  {
     title: "Wait for more to come",
     description:
       "We are constantly working on new projects. Stay tuned for more exciting developments!",
