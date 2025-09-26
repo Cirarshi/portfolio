@@ -9,7 +9,7 @@ const certifications = [
   {
     title: "PDF Analyzer with Ollama",
     description:
-      'Developed an intelligent document analysis tool that allows users to upload PDF files and ask questions about their content. The application leverages a locally-run Ollama model to understand context and provide accurate answers based on the document's information.',
+      'Developed an intelligent document analysis tool that allows users to upload PDF files and ask questions about their content. The application leverages a locally-run Ollama model to understand context and provide accurate answers based on the document information.',
     link: "https://github.com/Cirarshi/PDF-Analyzer-Chatbot",
   },
   {
