@@ -7,6 +7,30 @@ import { motion } from "framer-motion";
 
 const certifications = [
   {
+    title: "PDF Analyzer with Ollama",
+    description:
+      'Developed an intelligent document analysis tool that allows users to upload PDF files and ask questions about their content. The application leverages a locally-run Ollama model to understand context and provide accurate answers based on the document's information.',
+    link: "https://github.com/Cirarshi/PDF-Analyzer-Chatbot",
+  },
+  {
+    title: "E-learning platform",
+    description:
+      'Developed the complete client-side application for a feature-rich e-learning platform. The project focused on creating an intuitive, responsive, and engaging user interface for students to browse courses, watch video lectures, and track their learning progress.',
+    link: "https://cadcamrender.in/",
+  },
+  {
+    title: "PDF Analyzer with Ollama",
+    description:
+      'Discover, track, and binge your favorite shows and movies, while creating a personalized watchlist tailored just for you.',
+    link: "https://github.com/Cirarshi/connex-watch",
+  },
+  {
+    title: "Connex Travel",
+    description:
+      'Capture your journey by curating a personalized album of places you’ve visited, and chart your future adventures on an interactive map wishlist.',
+    link: "https://connextravel.netlify.app/",
+  },
+  {
     title: "Developer Portfolio",
     description:
       'A dynamic Software Developer Portfolio Template built with React.js, Bootstrap, and Node.js — designed to elegantly showcase my skills, projects, and a personal "About Me" section. This project serves as a professional digital identity for software developers.',
