@@ -34,7 +34,7 @@ function Homepage() {
               <Typewriter
                 words={[
                   " Software Engineer",
-                  "DevOps Engineer",
+                  " DevOps Engineer",
                   " Web Developer",
                   " Automation Tester",
                   " Freelancer",
